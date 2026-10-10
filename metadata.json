@@ -1,0 +1,9 @@
+{
+  "name": "Desktop Picture Frame",
+  "description": "Display a slideshow of photos on your desktop, below all windows.",
+  "uuid": "desktop-picture-frame@Abrahamthefirst.github",
+  "version": 1,
+  "shell-version": ["50"],
+  "url": "https://github.com/Abrahamthefirst/gnome-desktop-picture-frame",
+  "settings-schema": "org.gnome.shell.extensions.desktop-picture-frame"
+}

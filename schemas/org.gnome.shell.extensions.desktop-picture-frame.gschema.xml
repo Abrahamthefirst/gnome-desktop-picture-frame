@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.desktop-picture-frame"
+          path="/org/gnome/shell/extensions/desktop-picture-frame/">
+    <key name="image-folder" type="s">
+      <default>''</default>
+      <summary>Folder to load images from</summary>
+    </key>
+    <key name="widget-x" type="i">
+      <default>100</default>
+      <summary>Widget X position</summary>
+    </key>
+    <key name="widget-y" type="i">
+      <default>100</default>
+      <summary>Widget Y position</summary>
+    </key>
+    <key name="widget-width" type="i">
+      <default>300</default>
+      <summary>Widget width in pixels</summary>
+    </key>
+    <key name="widget-height" type="i">
+      <default>300</default>
+      <summary>Widget height in pixels</summary>
+    </key>
+    <key name="interval" type="i">
+      <default>30</default>
+      <summary>Seconds between image changes (0 = no rotation)</summary>
+    </key>
+    <key name="corner-radius" type="i">
+      <default>12</default>
+      <summary>Corner radius in pixels</summary>
+    </key>
+  </schema>
+</schemalist>
